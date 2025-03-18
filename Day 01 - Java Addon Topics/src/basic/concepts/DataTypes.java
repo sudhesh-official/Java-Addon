@@ -4,13 +4,14 @@ public class DataTypes {
 
 	public static void main(String[] args) {
 		// Non-primitive Datatype
+		
 		String name = "ABC./@12344";
 		
 		System.out.println("String Representing: " + name);
 		System.out.println("String Representing: " + name.length());
 		System.out.println("String Representing: " + name.toLowerCase());
 		
-		/*
+		/**
 		// Primitive Data types
 		// 1. Number Type
 		byte age = 127;
@@ -29,7 +30,7 @@ public class DataTypes {
 		char initial = 'R';
 
 		// Display Output
-		System.out.println("Byte Representing: " + age.);
+		System.out.println("Byte Representing: " + age);
 		System.out.println("Short Representing: " + b);
 		System.out.println("Int Representing: " + c);
 		System.out.println("long Representing: " + d);

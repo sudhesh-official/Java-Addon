@@ -6,6 +6,13 @@ public class SimpleIntrest {
 
 	public static void main(String[] args) {
 		
+		// (22/7.0) * r * r
+		// Math.pi * r * r
+		// 3.14 * r * r
+		
+		// r = 7 , res = 154 or 153.1234569
+		
+		
 		// getting input from the User
 		Scanner in = new Scanner(System.in);
 		
