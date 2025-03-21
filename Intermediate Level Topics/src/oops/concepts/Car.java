@@ -17,17 +17,17 @@ public class Car extends Vehicle {
 	public Car(String make, String color, String owner, float price, 
 			int wheelCount, int noOfGears, FuelType ftype) {
 		super(make, color, owner, price);
-		WheelCount = wheelCount;
-		NoOfGears = noOfGears;
-		ftype = ftype;
+		this.WheelCount = wheelCount;
+		this.NoOfGears = noOfGears;
+		this.ftype = ftype;
 
 	}
 
 	@Override
 	public void display() {
 		super.display();
-		System.out.println("No Of Gears: " + NoOfGears);
-		System.out.println("Wheel Count: " + WheelCount);
+		System.out.println("No Of Gears: " + this.NoOfGears);
+		System.out.println("Wheel Count: " + this.WheelCount);
 	}
 
 }
